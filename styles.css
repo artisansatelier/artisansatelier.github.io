@@ -1,0 +1,269 @@
+html, body {
+   background-image: url("./images/BG_final.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: #000000;
+   font-family: orator;
+   text-align: center;
+   color: white;
+   height: 100%;
+}
+.flex-container{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.title{
+  font-size: 50px;
+  display: block;
+}
+.large{
+  font-size: 90px;
+}
+.writeup {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 20px;
+  width: 95%;
+  margin-top: 0px;
+  margin-bottom: 2.5%;
+  line-height: 38px;
+}
+.yellow{
+  color: rgba(246, 239, 165, 0.25);
+}
+.coming{
+  font-size: 40px;
+  margin-bottom: 5%;
+  height: auto;
+}
+.contact{
+  font-size: 20px;
+  margin-bottom: 1%;
+  height: auto;
+}
+a.contact:link{
+  color: white;
+  text-decoration: none;
+}
+a.contact:hover{
+  color: rgba(246, 239, 165, 0.25);
+  cursor: pointer;
+}
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+    html, body {
+      background-size: auto 110%;
+      background-repeat: no-repeat;
+      background-position: center -120px;
+    }
+    .flex-container{
+      height: 135%;
+    }
+    .title{
+      font-size: 45px;
+    }
+    .large{
+      font-size: 85px;
+    }
+    .writeup {
+      font-size: 15px;
+      line-height: 33px;
+    }
+    .coming{
+      font-size: 35px;
+    }
+    .contact{
+      font-size: 15px;
+    }
+}
+/* Extra small devices (phones, 321px and up) */
+@media only screen and (min-width: 321px) {
+    html, body {
+      background-size: auto 110%;
+      background-repeat: no-repeat;
+      background-position: center -140px;
+    }
+    .flex-container{
+      height: 110%;
+    }
+    .title{
+      font-size: 45px;
+    }
+    .large{
+      font-size: 85px;
+    }
+    .writeup {
+      font-size: 15px;
+      line-height: 33px;
+    }
+    .coming{
+      font-size: 35px;
+    }
+    .contact{
+      font-size: 15px;
+    }
+}
+/* Extra small devices (phones, 414px and up) */
+@media only screen and (min-width: 414px) {
+    html, body {
+      background-size: auto 110%;
+      background-repeat: no-repeat;
+      background-position: center -140px;
+    }
+    .flex-container{
+      height: 100%;
+    }
+    .title{
+      font-size: 45px;
+    }
+    .large{
+      font-size: 85px;
+    }
+    .writeup {
+      font-size: 15px;
+      line-height: 33px;
+    }
+    .coming{
+      font-size: 35px;
+    }
+    .contact{
+      font-size: 15px;
+    }
+}
+/* IphoneX (phones, height 812px) */
+@media only screen and (height: 812px) {
+    html, body {
+      background-size: auto 110%;
+      background-repeat: no-repeat;
+      background-position: center -140px;
+    }
+    .flex-container{
+      height: 100%;
+    }
+    .title{
+      font-size: 45px;
+    }
+    .large{
+      font-size: 85px;
+    }
+    .writeup {
+      font-size: 15px;
+      line-height: 33px;
+    }
+    .coming{
+      font-size: 35px;
+    }
+    .contact{
+      font-size: 15px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html, body {
+      background-size: auto 115%;
+      background-repeat: no-repeat;
+      background-position: center -180px;
+    }
+    .flex-container{
+      height: 75%;
+    }
+    .title{
+      font-size: 45px;
+    }
+    .large{
+      font-size: 85px;
+    }
+    .writeup {
+      font-size: 15px;
+      line-height: 33px;
+    }
+    .coming{
+      font-size: 35px;
+    }
+    .contact{
+      font-size: 15px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html, body {
+    background-size: auto 110%;
+    background-repeat: no-repeat;
+    background-position: center -180px;
+  }
+  .flex-container{
+    height: 80%;
+  }
+  .title{
+    font-size: 45px;
+  }
+  .large{
+    font-size: 85px;
+  }
+  .writeup {
+    font-size: 15px;
+    line-height: 33px;
+  }
+  .coming{
+    font-size: 35px;
+  }
+  .contact{
+    font-size: 15px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html, body {
+    background-size: auto 105%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .flex-container{
+    height: 85%;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .large{
+    font-size: 90px;
+  }
+  .writeup {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .coming{
+    font-size: 40px;
+  }
+  .contact{
+    font-size: 20px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html, body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+    .flex-container{
+      height: 90%;
+    }
+    .title{
+      font-size: 50px;
+    }
+    .large{
+      font-size: 90px;
+    }
+    .writeup {
+      font-size: 20px;
+      line-height: 38px;
+    }
+    .coming{
+      font-size: 40px;
+    }
+    .contact{
+      font-size: 20px;
+    }
+}
